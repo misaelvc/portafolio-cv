@@ -976,6 +976,87 @@ ul {
   }
 }
 
+/* ---------- FOR SMALL DEVICES 351px ---------- */
+@media screen and (max-width: 479px) and (min-width: 351px) {
+  .container {
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
+
+  .section__title {
+    width: 250px;
+    margin-bottom: 4rem;
+  }
+
+  .nav__list {
+    column-gap: 0;
+  }
+  .nav__menu {
+    padding: 2rem 0.25rem 4rem;
+  }
+
+  .home__content {
+    margin-top: -4rem;
+    display: inline;
+    text-align: center;
+  }
+  .home__data {
+    margin-top: 0;
+  }
+  .home__subtitle {
+    font-size: 6px;
+    margin: auto;
+    text-align: left;
+    color: var(--text-color-light);
+  }
+
+  .subtitle {
+    margin-top: 10px;
+    margin-left: 155px;
+  }
+
+  .button-one {
+    margin-left: -95px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .console__container {
+    font-family: var(--body-font);
+    font-size: 20px;
+    font-weight: var(--font-semi-bold);
+    text-align: left;
+    margin-left: 155px;
+    width: 100vw;
+  }
+
+  .about__description {
+    margin-left: -8px;
+    font-size: var(--smaller-font-size);
+  }
+  .about__image {
+    width: 180px;
+    display: flex;
+    margin: auto;
+  }
+
+  .skills__title {
+    font-size: var(--normal-font-size);
+  }
+
+  .qualification__data {
+    gap: 0.5rem;
+  }
+
+  .contact__content {
+    margin-left: -8px;
+  }
+  .sinborde {
+    margin-left: -8px;
+  }
+}
+
 /* ---------- FOR SMALL DEVICES 480px ---------- */
 @media screen and (min-width: 480px) {
   .section__title {
