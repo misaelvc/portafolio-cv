@@ -195,7 +195,7 @@ themeButton.addEventListener("click", () => {
 });
 
 // // EFECTO MÁQUINA DE ESCRIBIR
-// Uno
+// One
 consoleTextUno(["Hola,"], "text-one", ["white"]);
 
 function consoleTextUno(words, id, colors) {
@@ -226,7 +226,7 @@ function consoleTextUno(words, id, colors) {
   }, 120);
 }
 
-// Dos;
+// Two
 consoleTextDos(["soy Misael,"], "text-two", ["white"]);
 
 function consoleTextDos(words, id, colors) {
@@ -257,7 +257,7 @@ function consoleTextDos(words, id, colors) {
   }, 120);
 }
 
-// Tres;
+// Three
 consoleTextTres(["desarrollador web."], "text-three", ["white"]);
 
 function consoleTextTres(words, id, colors) {
