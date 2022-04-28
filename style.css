@@ -227,7 +227,6 @@ ul {
   z-index: var(--z-fixed);
   background-color: var(--body-color);
 }
-
 /* =============== -NAV- =============== */
 .nav {
   max-width: 968px;
