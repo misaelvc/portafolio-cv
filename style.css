@@ -182,7 +182,7 @@ ul {
 }
 
 /* ---------- ANIMACIONES ---------- */
-/* .subtitle > h3 {
+.subtitle > h3 {
   animation: step-end animat 5.8s;
 }
 
@@ -206,7 +206,7 @@ ul {
   100% {
     transform: scale(1);
   }
-} */
+}
 
 /* =============== LAYOUT =============== */
 .container {
