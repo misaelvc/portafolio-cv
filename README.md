@@ -1,6 +1,6 @@
 # Portafolio CV
 
-Repositorio de proyectos de MisaelVC
+Repositorio para proyectos de MisaelVC
 
 ## Proyectos
 
