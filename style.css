@@ -166,6 +166,7 @@ ul {
   z-index: var(--z-fixed);
   background-color: var(--body-color);
 }
+
 /* =============== -NAV- =============== */
 .nav {
   height: var(--header-height);
@@ -493,14 +494,22 @@ ul {
 }
 
 .skills__html {
-  width: 40%;
+  width: 50%;
 }
 
 .skills__css {
-  width: 40%;
+  width: 50%;
 }
 
 .skills__js {
+  width: 40%;
+}
+
+.skills__sql {
+  width: 30%;
+}
+
+.skills__git {
   width: 30%;
 }
 
@@ -513,7 +522,7 @@ ul {
 }
 
 .skills__matlab {
-  width: 15%;
+  width: 20%;
 }
 
 .skills__simatic {
@@ -625,7 +634,8 @@ ul {
 }
 
 .portfolio__img {
-  width: 265px;
+  width: 350px;
+  height: 180px;
   border-radius: 0.5rem;
   justify-self: center;
 }
@@ -856,8 +866,8 @@ ul {
   right: 2rem;
   /* Se oculta el botón de la flecha. */
   bottom: -20%;
-  background-color: var(--text-color-light);
-  opacity: 0.7;
+  background-color: #8db9cd;
+  opacity: 0.8;
   padding: 0 0.3rem;
   border-radius: 1.5rem;
   z-index: var(--z-tooltip);
@@ -1011,6 +1021,7 @@ ul {
 
   .portfolio__img {
     width: 320px;
+    height: 180px;
     margin-bottom: 40px;
   }
 
@@ -1062,11 +1073,9 @@ ul {
   }
   .portfolio__img {
     width: 320px;
-    margin-top: 20px;
   }
 
   .skills__container,
-  .portfolio__content,
   .contact__container,
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
@@ -1074,7 +1083,7 @@ ul {
 }
 
 /* ---------- FOR MEDIUM DEVICES 677px - 767px ---------- */
-@media screen and (min-width: 677px) and (max-width: 767px) {
+@media screen and (min-width: 677px) and (max-width: 766px) {
   .home__subtitle {
     font-size: 15px;
     margin-left: 60px;
@@ -1111,7 +1120,8 @@ ul {
   }
   .portfolio__img {
     width: 320px;
-    margin-top: 10px;
+    height: 180px;
+    margin-top: 40px;
   }
 
   .skills__container,
@@ -1222,10 +1232,11 @@ ul {
     align-items: center;
   }
   .portfolio__data {
-    margin-top: -30px;
+    margin-top: -15px;
   }
   .portfolio__img {
-    width: 320px;
+    width: 500px;
+    height: 230px;
   }
 
   .about__container,
@@ -1295,6 +1306,10 @@ ul {
     font-size: 16px;
   }
 
+  .portfolio__data {
+    margin-top: -35px;
+  }
+
   .swiper-button-next {
     right: -1.5rem;
   }
@@ -1354,6 +1369,7 @@ ul {
   .about__description {
     text-align: justify;
     padding-right: 80px;
+    margin-top: 30px;
   }
   .about__image {
     width: 320px;
@@ -1371,6 +1387,10 @@ ul {
 
   .portfolio__description {
     text-align: justify;
+  }
+  .portfolio__img {
+    width: 450px;
+    height: 250px;
   }
 
   .swiper-button-next {
