@@ -54,7 +54,7 @@
   /* ---------- Z-INDEX ---------- */
   --z-tooltip: 10;
   --z-fixed: 100;
-  --z-modal: 1000;
+  /* --z-modal: 1000; */
 }
 
 /* ---------- Variables Dark Theme ---------- */
@@ -863,13 +863,15 @@ ul {
 /* =============== SCROLL UP =============== */
 .scrollup {
   position: fixed;
-  right: 2rem;
+  right: 1.5rem;
   /* Se oculta el botón de la flecha. */
   bottom: -20%;
   background-color: #8db9cd;
-  opacity: 0.8;
-  padding: 0 0.3rem;
-  border-radius: 1.5rem;
+  opacity: 0.7;
+  padding: 9px 18px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
   z-index: var(--z-tooltip);
   transition: 0.4s;
 }
@@ -879,13 +881,16 @@ ul {
 }
 
 .scrollup__icon {
-  font-size: 1.5rem;
+  position: relative;
+  bottom: 0.75rem;
+  right: 0.75rem;
+  font-size: 2.5rem;
   color: #fff;
 }
 
 /* ---------- Show Scroll ---------- */
 .show-scroll {
-  bottom: 4rem;
+  bottom: 9rem;
 }
 
 /* =============== SCROLL BAR =============== */
