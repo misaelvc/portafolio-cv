@@ -673,7 +673,7 @@ ul {
 
 .swiper-pagination-bullet {
   background-color: #8554e2;
-  padding: 6px;
+  padding: 10px;
 }
 
 .swiper-pagination-bullet-active {
@@ -870,8 +870,8 @@ ul {
   opacity: 0.7;
   padding: 9px 18px;
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   z-index: var(--z-tooltip);
   transition: 0.4s;
 }
@@ -882,9 +882,9 @@ ul {
 
 .scrollup__icon {
   position: relative;
-  bottom: 0.75rem;
-  right: 0.75rem;
-  font-size: 2.5rem;
+  bottom: 0.8rem;
+  right: 0.7rem;
+  font-size: 3rem;
   color: #fff;
 }
 
@@ -1206,11 +1206,11 @@ ul {
 
   .about__buttons {
     justify-content: center;
-    padding-right: 40px;
+    margin-right: 60px;
   }
   .about__description {
     text-align: justify;
-    padding-right: 30px;
+    margin-right: 60px;
   }
   .about__image {
     width: 260px;
@@ -1366,20 +1366,20 @@ ul {
 
   .about__buttons {
     padding-top: 5px;
-    padding-right: 70px;
+    margin-right: 50px;
   }
   .about__container {
     width: 80vw;
   }
   .about__description {
     text-align: justify;
-    padding-right: 80px;
+    margin-right: 80px;
     margin-top: 30px;
   }
   .about__image {
     width: 320px;
     margin-top: 5px;
-    margin-left: 80px;
+    /* margin-left: 10px; */
   }
 
   .skills__container {
