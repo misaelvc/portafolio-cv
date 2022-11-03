@@ -92,7 +92,9 @@ let swiperPortfolio = new Swiper(".portfolio__container", {
 
     $loader.classList.remove("none");
 
-    fetch("https://formsubmit.co/ajax/misael.vazquez.itse@gmail.com", {
+    //  fetch("https://formsubmit.co/ajax/misael.vazquez.itse@gmail.com"
+    //  Se me pidió sustituir el email por el correo al que tiene que llegar los mensajes.
+    fetch("https://formsubmit.co/ajax/684077253e7e6db8d59be5ebd52459bf", {
       method: "POST",
       body: new FormData(e.target),
     })
